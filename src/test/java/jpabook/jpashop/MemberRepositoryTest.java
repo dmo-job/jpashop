@@ -19,7 +19,7 @@ public class MemberRepositoryTest{
     @Rollback(false)
     public void testMember(){
         Member member = new Member();
-        member.setUsername("memberA");
+        member.setUsername("memberB");
         
         Long saveID = memberRepository.save(member);
         Member findMember = memberRepository.find(saveID);

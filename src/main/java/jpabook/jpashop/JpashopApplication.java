@@ -9,12 +9,11 @@ public class JpashopApplication {
 	public static void main(String[] args) {
 
 		Hello hello = new Hello();
-		hello.sayHello();
 		hello.setData("Hellowooooooooooooooooooooooo");
 		String data = hello.getData();
-
 		System.out.println("Data : " + data);
 
+		// Web APplication Start
 		SpringApplication.run(JpashopApplication.class, args);
 	}
 }
